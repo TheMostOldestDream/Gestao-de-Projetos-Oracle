@@ -14,17 +14,6 @@ Sistema console desenvolvido em Java com arquitetura MVC para gerenciamento de p
 
 ## Como Executar
 
-### Compilar
-```bash
-find src -name "*.java" > sources.txt
-javac -d out @sources.txt
-```
-
-### Executar
-```bash
-java -cp out com.oracle.gestao.Main
-```
-
 ### Via VS Code
 Abra o arquivo `Main.java` e clique em "Run" (ou F5).
 
