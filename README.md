@@ -30,18 +30,6 @@ Abra o arquivo `Main.java` e clique em "Run" (ou F5).
 
 ---
 
-## Usuarios Padrao (dados iniciais)
-
-| Login     | Senha    | Perfil          |
-|-----------|----------|-----------------|
-| admin     | admin123 | Administrador   |
-| mgerente  | senha123 | Gerente         |
-| jdev      | senha123 | Colaborador     |
-| aanalista | senha123 | Colaborador     |
-| cdesigner | senha123 | Colaborador     |
-
----
-
 ## Estrutura do Projeto
 
 ```
@@ -116,19 +104,6 @@ GestaoProjetosOracle/
 3. Relatorio por colaborador (tarefas atribuidas)
 4. Relatorio de equipes (membros + projetos)
 5. Relatorio de tarefas com prazo vencido
-
----
-
-## Configuracao do Repositorio Git
-
-```bash
-git init
-git add .
-git commit -m "feat: implementacao inicial do sistema de gestao de projetos Oracle"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/gestao-projetos-oracle.git
-git push -u origin main
-```
 
 ---
 
