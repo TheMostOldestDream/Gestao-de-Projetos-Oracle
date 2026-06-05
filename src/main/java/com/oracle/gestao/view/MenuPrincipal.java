@@ -168,7 +168,7 @@ public class MenuPrincipal {
             }
         }
 
-        String cargo = Util.lerStringObrigatoria("  Cargo: GERENTE/COLABORADOR ");
+        String cargo = Util.lerStringObrigatoria("  Cargo - GERENTE/COLABORADOR: ");
 
         String login;
         while (true) {
