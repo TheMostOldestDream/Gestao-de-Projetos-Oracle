@@ -69,7 +69,7 @@ GestaoProjetosOracle/
 ## Funcionalidades por Perfil
 
 ### Administrador
-- Gestao completa de usuarios (CRUD)
+- Gestao completa de usuarios (CRUD, promoção de cargo de usuários)
 - Gestao completa de projetos (CRUD)
 - Gestao completa de tarefas (CRUD)
 - Gestao completa de equipes (CRUD + membros + alocacao)
