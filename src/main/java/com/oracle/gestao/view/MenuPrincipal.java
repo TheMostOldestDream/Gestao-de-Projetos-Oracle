@@ -146,7 +146,7 @@ public class MenuPrincipal {
 
         String cpf;
         while (true) {
-            cpf = Util.lerStringObrigatoria("  CPF (somente numeros, 11 digitos): ");
+            cpf = Util.lerStringObrigatoria("  CPF: ");
             if (!Util.validarCpf(cpf)) {
                 System.out.println("  CPF invalido. Tente novamente.");
             } else if (usuarioController.cpfExiste(cpf)) {
@@ -168,7 +168,7 @@ public class MenuPrincipal {
             }
         }
 
-        String cargo = Util.lerStringObrigatoria("  Cargo - GERENTE/COLABORADOR: ");
+        String cargo = " ";
 
         String login;
         while (true) {
