@@ -58,7 +58,7 @@ public class UsuarioView {
 
         String cpf;
         while (true) {
-            cpf = Util.lerStringObrigatoria("  CPF (somente numeros): ");
+            cpf = Util.lerStringObrigatoria("  CPF: ");
             if (!Util.validarCpf(cpf)) {
                 System.out.println("  CPF invalido. Tente novamente.");
             } else if (controller.cpfExiste(cpf)) {
@@ -80,7 +80,7 @@ public class UsuarioView {
             }
         }
 
-        String cargo = Util.lerStringObrigatoria("  Cargo: ");
+        String cargo = " ";
 
         String login;
         while (true) {
